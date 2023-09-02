@@ -1,0 +1,274 @@
+.extension{
+    position: relative;
+    left: -0.4vw;
+    width: 100.4vw;
+    background-color:gray;   
+    height: 1px; 
+}
+
+.Division.Erfahrung{
+    padding: 0.45rem 1.5rem 0.45rem 0rem;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.Division.Bildung{
+    padding: 0.45rem 1.5rem 0.45rem 0rem;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.Division.Image{
+    max-width: 500px;
+    max-width: 500px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.Division.Text{
+    display: grid;
+    grid-template-rows: 5rem auto;
+    grid-template-columns: auto auto;
+    background-color: #95a7f1;
+    gap: 0.3rem;
+}
+
+.Domain{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:700;
+}
+
+
+.Introduction{
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    grid-column: span 2;
+    background-color: white;
+}
+
+.Text.one{
+    padding-top: 1rem;
+    background-color: #6d90b6;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.Text.two{
+    padding-top: 1rem;
+    background-color: #6d90b6;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.name{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.Hochscule-RheinMain{
+    display: grid;
+    grid-template-rows: 1.25rem 1rem;
+    grid-template-columns: 9rem auto;
+    margin-bottom: 1rem;
+    max-width: 450px;
+}
+
+.Siemens-AG{
+    display: grid;
+    grid-template-rows: 1.25rem 1rem auto;
+    grid-template-columns: 9rem auto;
+    max-width: 450px;
+}
+
+.GoStudent{
+    display: grid;
+    grid-template-rows: 1.25rem 1rem auto;
+    grid-template-columns: 9rem auto;
+    max-width: 450px;
+}
+
+.Deutsch-Bahn-AG{
+    display: grid;
+    grid-template-rows: 1.25rem 1rem auto;
+    grid-template-columns: 9rem auto;
+    max-width: 450px;
+}
+
+.Hermes-LC-Mainz{
+    display: grid;
+    grid-template-rows: 1.25rem 1rem auto;
+    grid-template-columns: 9rem auto;
+    max-width: 450px;
+}
+
+.carousel-inner{
+    height: 50vh !important;
+}
+
+.carousel-item{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.language-div, .IT-div{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.box{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.language-level{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.Kenntnisse-level{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flag{
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0.25rem 0.5rem 0.25rem;
+}
+
+.jauge{
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    width: 21rem;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+}
+
+.french-level{
+    background-color: rgb(113, 113, 221);
+    width: 98%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.germany-level{
+    background-color: rgb(113, 113, 221);
+    width: 85%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.english-level{
+    background-color: rgb(113, 113, 221);
+    width: 50%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.Python-level{
+    background-color: rgb(113, 113, 221);
+    width: 81%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.Cplus-level{
+    background-color: rgb(113, 113, 221);
+    width: 77%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.Csharp-level{
+    background-color: rgb(113, 113, 221);
+    width: 50%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.JavaScript-level{
+    background-color: rgb(113, 113, 221);
+    width: 80%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.Rasperry-level{
+    background-color: rgb(113, 113, 221);
+    width: 50%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.Web-level{
+    background-color: rgb(113, 113, 221);
+    width: 40%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.MS-level{
+    background-color: rgb(113, 113, 221);
+    width: 65%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.end-div{
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.block-profil{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.profil{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pf-link{
+    color: black;
+    text-decoration: none;
+}
+
+.pf{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1.2rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:700;
+}
+
+p{
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+}
